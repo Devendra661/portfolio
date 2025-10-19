@@ -1,5 +1,6 @@
 import { FaDownload, FaHandshake } from "react-icons/fa";
 import { motion } from "framer-motion";
+import aboutImage from '../assets/about.jpg';
 
 const About = () => {
   const containerVariants = {
@@ -56,7 +57,7 @@ const About = () => {
             variants={fadeInLeft}
           >
             <img
-              src="/src/assets/about.jpg" // replace with your profile image
+              src={aboutImage} // replace with your profile image
               alt="About Me"
               className="rounded-xl shadow-xl w-64 sm:w-80 md:w-full max-w-sm object-cover"
             />

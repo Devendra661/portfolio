@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { motion, AnimatePresence } from "framer-motion";
 import MenuItems from "./MenuItems";
+import profileImage from '../assets/white_img.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +48,7 @@ const Navbar = () => {
         {/* Logo */}
         <div className="flex items-center gap-3">
           <img
-            src="/src/assets/white_img.png"
+            src={profileImage}
             alt="Profile"
             className="w-10 h-10 rounded-full border-2 border-neutral"
           />
@@ -84,7 +85,7 @@ const Navbar = () => {
             {/* Mobile Menu Logo */}
             <div className="absolute top-5 left-5 flex items-center gap-3">
               <img
-                src="/src/assets/white_img.png"
+                src={profileImage}
                 alt="Profile"
                 className="w-10 h-10 rounded-full border-2 border-neutral"
               />

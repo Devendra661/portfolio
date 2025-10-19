@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { FaInstagram, FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
 import toast, { Toaster } from "react-hot-toast";
+import contactImage from '../assets/white_img.png';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -143,7 +144,7 @@ const ContactForm = () => {
           {/* Contact Info */}
           <motion.div variants={fadeInRight} className="lg:w-1/3 bg-gray-800 p-8 rounded-lg shadow-lg flex flex-col">
             <img
-              src="/src/assets/white_img.png"
+              src={contactImage}
               alt="Contact Person"
               className="w-32 h-32 rounded-full object-cover mb-6 border-4 border-pink-500 mx-auto"
             />
