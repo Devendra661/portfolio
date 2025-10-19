@@ -11,7 +11,7 @@ const CertificateCard = ({ certificate, index }) => {
       transition={{ duration: 0.5 }}
     >
       <img
-        src={`/src/assets/${certificate.imageUrl}`}
+        src={certificate.imageUrl}
         alt={certificate.title}
         className="w-full md:w-1/2 h-48 md:h-auto object-cover rounded-t-xl md:rounded-l-xl md:rounded-t-none"
       />
