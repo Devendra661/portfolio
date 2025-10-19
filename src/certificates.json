@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Python with Django",
+    "organization": "Softpro India",
+    "duration": "2022",
+    "description": "Completed an intensive course on Python and the Django framework, gaining proficiency in building robust and scalable web applications.",
+    "imageUrl": "python.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Advance Java",
+    "organization": "Softpro India Lucknow",
+    "duration": "2023",
+    "description": "Mastered advanced Java concepts, including multithreading, servlets, and JSP, to develop high-performance, enterprise-level applications.",
+    "imageUrl": "ad_java.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Full Stack Java",
+    "organization": "BTPS Kanpur",
+    "duration": "2024",
+    "description": "Acquired comprehensive skills in both front-end and back-end Java development, enabling the creation of complete and integrated web solutions.",
+    "imageUrl": "ad_java.jpg"
+  },
+  {
+    "id": 4,
+    "title": "C Programming",
+    "organization": "BTPS Kanpur",
+    "duration": "2024",
+    "description": "Developed a strong foundation in the C programming language, focusing on fundamental concepts like memory management, data structures, and algorithms.",
+    "imageUrl": "python.jpg"
+  }
+]

@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+   themes: sunset --default, dark --prefersdark;
+ }
+
+ html ,body {
+  overflow-x: hidden;
+}

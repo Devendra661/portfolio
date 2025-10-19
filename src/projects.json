@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "title": "Online Library Management System",
+    "description": "An Online Library Management System is a web-based application designed to automate and simplify the process of managing a library’s resources. It allows librarians, administrators, and students/members to access and manage books, borrow or return them, and track availability in a digital environment.",
+    "imageUrl": "/project-covers/devlibrary.png",
+    "category": "Web App",
+    "likes": 150,
+    "projectLink": "https://erp-devlibrary.netlify.app/"
+  },
+  {
+    "id": 2,
+    "title": "Weather App Using API",
+    "description": "A modern weather application built with React, Vite, and Tailwind CSS. It fetches real-time weather data from a public API and displays conditions, temperature, and forecasts in a clean, responsive interface.",
+    "imageUrl": "/project-covers/weather_app.png",
+    "category": "API",
+    "likes": 200,
+    "projectLink": "https://dev-weatherapp.netlify.app/"
+  },
+  {
+    "id": 3,
+    "title": "Admin Dashboard",
+    "description": "A responsive admin dashboard for managing and visualizing key business metrics. Built with React, Tailwind CSS, and D3.js, it offers interactive charts, tables, and user-friendly data exploration tools.",
+    "imageUrl": "/project-covers/admin_dashboard.png",
+    "category": "Data Visualization",
+    "likes": 245,
+    "projectLink": "https://dev-admindashboard.netlify.app/"
+  },
+  {
+    "id": 4,
+    "title": "DMart Online Management System",
+    "description": "The DMart Online Management System is a web-based platform designed to manage the online operations of DMart stores. It enables customers to browse products, place orders, make payments, and track deliveries, while also allowing administrators and store managers to handle inventory, sales, and customer support digitally..",
+    "imageUrl": "/project-covers/DMart.png",
+    "category": "Web App",
+    "likes": 220,
+    "projectLink": "https://github.com/Devendra661/DMart"
+  },
+  {
+    "id": 5,
+    "title": "Portfolio",
+    "description": "A scalable backend for an e-commerce platform, with features like product management, order processing, and payment gateway integration.",
+    "imageUrl": "/project-covers/portfolio.png",
+    "category": "Portfolio",
+    "likes": 190,
+    "projectLink": "https://dev-portfolio.netlify.app/"
+  },
+  {
+    "id": 6,
+    "title": "CI/CD Pipeline for a Microservice",
+    "description": "A fully automated CI/CD pipeline for a microservice, using Jenkins, Docker, and Kubernetes. It automates the build, test, and deployment process.",
+    "imageUrl": "/project-covers/p2.jpg",
+    "category": "DevOps",
+    "likes": 250,
+    "projectLink": "https://example.com/project6"
+  }
+]
