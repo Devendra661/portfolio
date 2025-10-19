@@ -146,22 +146,22 @@ const ContactForm = () => {
             <img
               src={contactImage}
               alt="Contact Person"
-              className="w-32 h-32 rounded-full object-cover mb-6 border-4 border-pink-500 mx-auto"
+              className="w-32 h-32 rounded-full object-cover mb-6 border-4 border-pink-500 mr-auto ml-0"
             />
-            <h2 className="relative group text-2xl font-semibold mb-4 text-center lg:text-left">
+            <h2 className="relative group text-2xl font-semibold mb-4 text-left">
               Contact Information
               <span className="absolute left-0 -bottom-1 h-[2px] bg-red-500 transition-all duration-300 origin-left transform scale-x-0 group-hover:scale-x-100"></span>
             </h2>
-            <div className="text-gray-300 mb-6 text-center lg:text-left">
+            <div className="text-gray-300 mb-6 text-left">
               <p className="mb-2">Noida, Uttar Pradesh, India</p>
               <p className="mb-2">+91 (813) 015-8279</p>
               <p>kumardevendra05808@gmail.com</p>
             </div>
-            <h3 className="relative group text-lg font-semibold text-gray-300 mb-4 text-center lg:text-left">
+            <h3 className="relative group text-lg font-semibold text-gray-300 mb-4 text-left">
               Find Me On
               <span className="absolute left-0 -bottom-1 h-[2px] bg-red-500 transition-all duration-300 origin-left transform scale-x-0 group-hover:scale-x-100"></span>
             </h3>
-            <div className="flex gap-4 justify-center lg:justify-start mt-2">
+            <div className="flex gap-4 justify-start mt-2">
               {socialLinks.map((social, index) => {
                 const Icon = social.icon;
                 return (
