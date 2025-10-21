@@ -77,7 +77,7 @@ const ContactForm = () => {
       <div className="container mx-auto px-6 lg:px-20 w-full">
         <div className="flex flex-col lg:flex-row gap-12 w-full">
           {/* Contact Form */}
-          <motion.div variants={fadeInLeft} className="lg:w-2/3 bg-gray-800 p-8 rounded-lg shadow-lg">
+          <motion.div variants={fadeInLeft} className="lg:w-2/3  p-8 rounded-lg shadow-lg">
             <h2 className="relative group text-2xl font-semibold mb-6 inline-block">
               Send a Message
               <span className="absolute left-0 -bottom-1 h-[2px] bg-red-500 transition-all duration-300 origin-left transform scale-x-0 group-hover:scale-x-100"></span>
@@ -142,7 +142,7 @@ const ContactForm = () => {
           </motion.div>
 
           {/* Contact Info */}
-          <motion.div variants={fadeInRight} className="lg:w-1/3 bg-gray-800 p-8 rounded-lg shadow-lg flex flex-col">
+          <motion.div variants={fadeInRight} className="lg:w-1/3  p-8 flex flex-col">
             <img
               src={contactImage}
               alt="Contact Person"
